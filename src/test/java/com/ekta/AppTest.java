@@ -1,7 +1,5 @@
 package com.ekta;
 
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;
@@ -9,7 +7,7 @@ import static org.junit.Assert.assertThat;
 /**
  * Unit test for simple App.
  */
-public class AppTest extends TestCase {
+public class AppTest {
     @Test
     public void fifteenAndTenMod() throws Exception {
         final long result = new App().modulo(15, 10);
